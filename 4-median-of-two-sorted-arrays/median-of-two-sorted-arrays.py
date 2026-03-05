@@ -1,7 +1,7 @@
 class Solution:
     def findMedianSortedArrays(self, nums1, nums2):
         
-        # Always binary search on smaller array
+        
         if len(nums1) > len(nums2):
             nums1, nums2 = nums2, nums1
         
